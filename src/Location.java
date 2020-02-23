@@ -1,10 +1,10 @@
 public class Location {
     private double elevation;
     private TerrainType terrainType;
-    private int x;
-    private int y;
-    public double h;
-    public double g;
+    public int x;
+    public int y;
+
+
 
     public Location(double elevation, TerrainType terrainType, int x, int y){
         this.elevation = elevation;
@@ -47,4 +47,5 @@ public class Location {
         }
         return 0;
     }
+
 }
