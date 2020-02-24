@@ -25,6 +25,7 @@ public class PathPoint {
     public void generateG(){
         int parentX = parent.location.x;
         int parentY = parent.location.y;
+        double parentElv = parent.location.elevation;
         double distance = 0;
 
         if(Math.abs(parentY - this.location.y) == 1){
@@ -33,8 +34,19 @@ public class PathPoint {
         else if(Math.abs(parentX - this.location.x) == 1){
             distance = 10.29;
         }
+        double elevMod = 1;
 
-        this.g = parent.g + ((distance / (Walker.normalspeed + this.location.getTerrainMod())) ); // WIP need to add elevation modifier.
+        if(this.location.elevation > parentElv){
+            double angle = Math.atan((this.location.elevation - parentElv) / 10);
+            angle = Math.toDegrees(angle);
+            if(angle > 0){
+                elevMod = Math.cos(angle); // Elevation modifier
+            }
+            elevMod = Math.abs(elevMod);
+        }
+
+
+        this.g = parent.g + ((distance / (Walker.normalspeed + this.location.getTerrainMod())) * elevMod); // WIP need to add elevation modifier.
 
     }
 
@@ -44,5 +56,13 @@ public class PathPoint {
 
     public void setParent(PathPoint parent) {
         this.parent = parent;
+        this.generateG();
+    }
+
+    public boolean atLocation(Location loc){
+        if(this.location.equal(loc)){
+            return true;
+        }
+        return false;
     }
 }

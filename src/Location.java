@@ -1,5 +1,5 @@
 public class Location {
-    private double elevation;
+    public double elevation;
     private TerrainType terrainType;
     public int x;
     public int y;
@@ -37,15 +37,22 @@ public class Location {
             return -0.95;
         }
         else if(this.terrainType == TerrainType.PavedRoad){
-            return 0.05;
+            return 0.0;
         }
         else if(this.terrainType == TerrainType.FootPath){
-            return 0.05;
+            return 0.0;
         }
         else if(this.terrainType == TerrainType.Outbound){
             return -1.0;
         }
         return 0;
+    }
+
+    public boolean equal(Location location){
+        if(this.x == location.x && this.y == location.y){
+            return true;
+        }
+        return false;
     }
 
 }

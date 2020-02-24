@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77871ae9-6bb6-4e33-8707-8edd5e92d388" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab1/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab1/OrienteeringApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1/OrienteeringApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab1/Walker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab1/Walker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphicMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrienteeringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrienteeringApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PathPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PathPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Walker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Walker.java" afterDir="false" />
     </list>
@@ -38,7 +44,7 @@
     <configuration name="OrienteeringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OrienteeringApp" />
       <module name="lab1" />
-      <option name="PROGRAM_PARAMETERS" value="1 2 3" />
+      <option name="PROGRAM_PARAMETERS" value="testcases\normal\terrain.png testcases\normal\mpp.txt testcases\normal\brown.txt summer pathgraph.png" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,60 +66,83 @@
       <option name="presentableId" value="Default" />
       <updated>1582423477689</updated>
     </task>
+    <task id="LOCAL-00001" summary="WIP 1">
+      <created>1582489334135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582489334135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WIP 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP 1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582423813514">
+    <state x="412" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582510722761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582423813514" />
+    <state x="412" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582510722761" />
     <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1582486462961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582486462961" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1582485171583">
+    <state x="614" y="111" key="CommitChangelistDialog2" timestamp="1582489352317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1582485171583">
+    <state x="614" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582489352317" />
+    <state width="1877" height="414" key="GridCell.Tab.0.bottom" timestamp="1582512094951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1582485171583">
+    <state width="1877" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582512094951" />
+    <state width="1877" height="414" key="GridCell.Tab.0.center" timestamp="1582512094951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1582485171583">
+    <state width="1877" height="414" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582512094951" />
+    <state width="1877" height="414" key="GridCell.Tab.0.left" timestamp="1582512094951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582485171583">
+    <state width="1877" height="414" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582512094951" />
+    <state width="1877" height="414" key="GridCell.Tab.0.right" timestamp="1582512094951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582485171583">
+    <state width="1877" height="414" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582512094951" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1582511432033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582485171583">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582511432033" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1582511432032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582485171583">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582511432032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1582511432032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582485171583" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582511432032" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1582511432032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582511432032" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1582423779489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582423779489" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582485204373">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582489409999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582485204373" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582489409999" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582499776096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582499776096" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582473593307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582473593307" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab1$OrienteeringApp.ic" NAME="OrienteeringApp Coverage Results" MODIFIED="1582511396068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

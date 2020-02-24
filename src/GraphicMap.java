@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 
 public class GraphicMap {
@@ -28,5 +29,20 @@ public class GraphicMap {
     public Color getPixel(int x, int y){
         Color color = new Color(this.bi.getRGB(x,y));
         return color;
+    }
+
+    public void drawPath(ArrayList<PathPoint> app){
+        Color red = new Color(255, 0, 0);
+        for(PathPoint pp: app){
+            int x = pp.location.x;
+            int y = pp.location.y;
+
+            this.bi.setRGB(x,y,red.getRGB());
+            try {
+                ImageIO.write(bi,"png",new File("pathgraph.png"));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
